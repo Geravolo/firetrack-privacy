@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Política de privacidad — FireTrack</title>
+<style>
+  :root{
+    --carbon:#1b1b1a;
+    --amber:#c8850f;
+    --red:#b5302f;
+    --ink:#1c1c1a;
+    --muted:#5b5a54;
+    --line:#e4e1d8;
+    --bg:#fbfaf7;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);}
+  body{
+    font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  header{
+    background:var(--carbon);color:#f2f0ea;
+    padding:36px 24px 30px;
+  }
+  .header-inner{max-width:680px;margin:0 auto;}
+  .brand{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
+  .brand-mark{font-size:22px;}
+  .brand-name{font-size:15px;font-weight:600;letter-spacing:0.02em;color:#f2f0ea;}
+  h1{font-size:26px;line-height:1.25;margin:0 0 8px;font-weight:700;}
+  .updated{font-size:13px;color:#b9b6ac;margin:0;}
+  main{max-width:680px;margin:0 auto;padding:36px 24px 64px;}
+  h2{
+    font-size:18px;font-weight:700;margin:34px 0 10px;
+    color:var(--ink);
+  }
+  h2:first-of-type{margin-top:0;}
+  p{margin:0 0 14px;font-size:15.5px;color:var(--ink);}
+  ul{margin:0 0 14px;padding-left:22px;}
+  li{margin-bottom:8px;font-size:15.5px;}
+  .muted{color:var(--muted);}
+  .callout{
+    border-left:3px solid var(--amber);
+    background:#f6f0e3;
+    padding:14px 16px;border-radius:4px;
+    margin:0 0 14px;
+  }
+  .callout p{margin:0;font-size:14.5px;}
+  a{color:var(--red);}
+  .divider{border:none;border-top:1px solid var(--line);margin:40px 0;}
+  .contact{font-size:15.5px;}
+  footer{max-width:680px;margin:0 auto;padding:0 24px 48px;}
+  footer p{font-size:13px;color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark">🔥</span>
+      <span class="brand-name">FireTrack</span>
+    </div>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: octubre de 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <p>FireTrack es una aplicación para medir el área y el perímetro de un incendio con GPS, pensada para uso operativo de bomberos en el terreno. Esta página explica qué información usa la app, cómo se guarda y cuándo se comparte.</p>
+
+  <h2>Quién es responsable</h2>
+  <p>FireTrack es desarrollada de forma independiente por Gerardo Volonté. Ante cualquier consulta sobre esta política o sobre el manejo de datos de la app, podés escribir a <a href="mailto:gerardo.daniel.volonte@gmail.com">gerardo.daniel.volonte@gmail.com</a>.</p>
+
+  <h2>Qué información usa la app</h2>
+  <ul>
+    <li><strong>Ubicación (GPS):</strong> para marcar los puntos de cada foco o frente y calcular área, perímetro y distancia.</li>
+    <li><strong>Cámara y fotos:</strong> si elegís sacar una foto para adjuntarla a un incidente.</li>
+    <li><strong>Datos que escribís vos:</strong> el nombre de quién reporta, notas, y la altura de llama y velocidad de viento que cargues en la calculadora.</li>
+    <li><strong>Fecha y hora</strong> de cada medición y de cada envío, tomadas del propio celular.</li>
+    <li><strong>Mapa satelital:</strong> las imágenes del mapa se descargan por internet desde los servidores de Esri (ArcGIS World Imagery). Al pedirlas, esos servidores reciben la dirección IP de tu conexión y las coordenadas de la zona del mapa que estás viendo. FireTrack no les envía tu nombre, tus notas, tus fotos ni tus mediciones.</li>
+  </ul>
+  <p>FireTrack no pide nombre de usuario, no pide cuentas, y no accede a contactos, mensajes ni a ningún otro dato del celular fuera de lo detallado arriba.</p>
+
+  <h2>Dónde se guarda esa información</h2>
+  <div class="callout">
+    <p>Todo lo que registrás en FireTrack queda guardado únicamente en tu propio celular. La app no tiene un servidor propio, y nada se envía automáticamente a ningún lado.</p>
+  </div>
+  <p>El historial de incidentes, las fotos y las mediciones viven en el almacenamiento local del dispositivo. Si desinstalás la app o borrás sus datos desde los ajustes del celular, esa información se pierde de forma permanente — FireTrack no tiene una copia en ningún otro lugar.</p>
+
+  <h2>Cuándo se comparte información</h2>
+  <p>FireTrack comparte datos únicamente cuando vos tocás el botón "Enviar datos". En ese momento, se genera una imagen con el resumen de la medición y vos elegís, desde el selector nativo del celular, a qué aplicación enviarla (WhatsApp, correo, etc.). FireTrack no tiene acceso a lo que pase con esa imagen una vez que sale de la app, ni guarda registro de a quién se la mandaste.</p>
+  <p>Ese envío puede incluir, además de la imagen, un enlace a la ubicación del incidente en Google Maps, si elegís copiarlo o compartirlo junto con los datos.</p>
+
+  <h2>Permisos que pide la app</h2>
+  <ul>
+    <li><strong>Ubicación:</strong> imprescindible para la función principal de la app — medir con GPS.</li>
+    <li><strong>Cámara:</strong> solo se activa cuando tocás el botón de sacar una foto.</li>
+  </ul>
+  <p>Podés revisar o revocar estos permisos en cualquier momento desde los ajustes del sistema operativo de tu celular.</p>
+
+  <h2>Publicidad y terceros</h2>
+  <p>FireTrack no muestra publicidad, no usa herramientas de análisis ni rastreo, y no vende ni comparte información con terceros con fines comerciales. La única conexión con un tercero es la descarga de imágenes del mapa satelital descrita arriba.</p>
+
+  <h2>Menores de edad</h2>
+  <p>FireTrack está pensada para uso operativo de personal de bomberos y no está dirigida a menores de edad.</p>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si en el futuro cambia qué datos usa la app o cómo los maneja, esta página se va a actualizar y se va a reflejar la fecha de la nueva versión arriba de todo.</p>
+
+  <h2>Contacto</h2>
+  <p class="contact">Por cualquier duda sobre esta política de privacidad: <a href="mailto:gerardo.daniel.volonte@gmail.com">gerardo.daniel.volonte@gmail.com</a></p>
+
+  <hr class="divider">
+  <p class="muted" style="font-size:13px;">Esta política corresponde a la aplicación FireTrack, desarrollada por Gerardo Volonté.</p>
+
+</main>
+
+</body>
+</html>
